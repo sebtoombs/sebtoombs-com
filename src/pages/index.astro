@@ -1,0 +1,65 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Container from "../components/Container.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title="Seb Toombs - software engineer, indie-hacker & blogger"
+      description="Discover the insights and experiences of software engineer and indie hacker, Seb Toombs, through his blog. Specializing in SME websites, startups, and fintech, Seb currently works at mx51 and runs Messagebase, a tool for managing product triggered email messaging. Follow his journey and learn from his projects and knowledge on his website"
+      useTitleTemplate={false}
+    />
+  </head>
+  <body>
+    <Header />
+    <Container>
+      <main>
+        <h1 class="text-4xl font-medium mb-6">Hey, there!</h1>
+        <h2 class="text-4xl font-bold mb-6 text-pink-100 leading-relaxed">
+          <span class="bg-pink-500 py-1"
+            >I'm Seb Toombs, and I'm a software engineer, indie-hacker and
+            attempted blogger.</span
+          >
+        </h2>
+        <div class="text-lg flex flex-col gap-6 content">
+          <p>
+            Hey, I'm Seb. I'm a software engineer with extensive experience SME
+            websites, startups, and fintech. I'm currently at <a
+              href="https://mx51.io"
+              target="_blank"
+              rel="noopener noreferrer">mx51</a
+            > building products for the payments industry.
+          </p>
+          <p>
+            I also run <a href="https://messagebase.io" target="_blank"
+              >Messagebase</a
+            > on the side - a tool for managing product triggered (email) messaging.
+          </p>
+          <p>
+            I also have a couple of other projects at various stages;
+            <ul class="list-disc list-inside">
+              <li>
+                <a href="https://plugindash.com" target="_blank">Plugindash</a>
+              </li>
+              <li>
+                <a href="https://map-editor.sebtoombs.com" target="_blank"
+                  >Map Editor</a
+                >
+              </li>
+              <li>
+                <a href="https://nimblewebdeveloper.com" target="_blank"
+                  >Nimblewebdeveloper</a
+                >
+              </li>
+            </ul>
+          </p>
+        </div>
+      </main>
+    </Container>
+    <Footer />
+  </body>
+</html>

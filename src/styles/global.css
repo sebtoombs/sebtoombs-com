@@ -1,0 +1,57 @@
+/* body,
+html {
+  @apply bg-pink-400 text-white;
+} */
+
+.content {
+  @apply leading-relaxed text-lg lg:text-xl lg:leading-loose;
+}
+
+.content p {
+  @apply mb-8;
+}
+
+.content a {
+  @apply text-pink-500 hover:text-pink-600 hover:underline;
+}
+
+.content h1 {
+  @apply text-4xl lg:text-5xl font-semibold mb-4;
+}
+
+.content h2 {
+  @apply text-3xl lg:text-4xl font-semibold mb-4;
+}
+
+.content h3 {
+  @apply text-2xl lg:text-3xl font-semibold mb-4;
+}
+
+.content h4 {
+  @apply text-xl lg:text-2xl font-semibold mb-4;
+}
+
+.content h5 {
+  @apply text-lg lg:text-xl font-semibold mb-4;
+}
+
+.content h6 {
+  @apply text-base lg:text-lg font-semibold mb-4;
+}
+
+.content .astro-code {
+  @apply p-4 mb-8 rounded-md;
+}
+
+.content p code {
+  @apply bg-pink-50 text-gray-800 p-1 mx-1 rounded;
+}
+
+.content ul,
+.content ol {
+  @apply list-disc list-inside mb-8;
+}
+
+.content hr {
+  @apply border-t-2 border-pink-100 my-8;
+}
